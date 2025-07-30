@@ -1,0 +1,49 @@
+
+{
+  "@context": "https://schema.org",
+  "@type": ["WebApplication", "TravelTool"],
+  "name": "Schengen Visa Calculator | 90/180 Day Rule",
+  "url": "https://visacalculator.org/schengen-visa-calculator.html",
+  "description": "Track your Schengen Visa stay with our 90/180-day rule calculator. Simple, fast, accurate tool for Schengen travel planning and visa compliance.",
+  "applicationCategory": ["TravelApplication", "GovernmentTool"],
+  "operatingSystem": "Any",
+  "offers": {
+    "@type": "Offer",
+    "price": "0",
+    "priceCurrency": "USD"
+  },
+  "creator": {
+    "@type": "Organization",
+    "name": "YourOrganizationName",
+    "url": "https://visacalculator.org"
+  },
+  "about": {
+    "@type": "GovernmentService",
+    "name": "Schengen Visa Compliance",
+    "serviceType": "Visa calculator"
+  },
+  "featureList": [
+    "90/180 day rule calculator",
+    "Visa stay tracker",
+    "Schengen travel planner",
+    "EU visa compliance",
+    "Date range calculations",
+    "Multiple trip tracking",
+    "Visa requirement alerts"
+  ],
+  "audience": {
+    "@type": "Audience",
+    "audienceType": [
+      "International travelers",
+      "Visa applicants",
+      "Frequent flyers",
+      "Expats",
+      "Travel agencies"
+    ],
+    "geographicArea": {
+      "@type": "AdministrativeArea",
+      "name": "Schengen Area"
+    }
+  },
+  "keywords": "Schengen Visa Calculator, 90/180 rule, visa stay tracker, EU visa calculator, travel compliance tool"
+}
