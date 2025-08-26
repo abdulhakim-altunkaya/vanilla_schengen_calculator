@@ -8,26 +8,11 @@
     Yeşil pasaport AB Schengen vize hesaplama. Simple, fast, accurate tool for Schengen travel planning and visa compliance.">
     <meta name="keywords" content="Schengen Visa Calculator, 90/180 rule, visa stay tracker, Schengen travel 
     planner, EU visa calculator, Yeşil pasaport vize, Schengen compliance, visa days calculator">
-        <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Schengen Visa Calculator - 90/180 Days">
-    <meta property="og:description" content="Track your Schengen Visa stay with our simple, fast, and accurate 90/180-day rule calculator for travel planning and visa compliance.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visacalculator.org">
-    <meta property="og:image" content="https://visacalculator.org/assets/images/schengen-calculator.jpg">
-    <meta property="og:image:alt" content="Schengen Visa Calculator Interface">
-    <meta property="og:site_name" content="Schengen Visa Calculator">
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Schengen Visa Calculator - 90/180 Days">
-    <meta name="twitter:description" content="Track your Schengen Visa stay with our simple, fast, and accurate 90/180-day rule calculator for travel planning and visa compliance.">
-    <meta name="twitter:image" content="https://visacalculator.org/assets/images/schengen-calculator.jpg">
-    <meta name="twitter:image:alt" content="Schengen Visa Calculator Interface">
-    <meta name="twitter:site" content="@YourTwitterHandle"> <!-- Replace with actual Twitter handle -->
-    <title>Schengen Visa Calculator</title>
     <meta name="google-site-verification" content="Bzv8D7u5EDE9Wzk9OMV2GuMCkIwbgDNFlpGL_jqPcnY" />
     <title>Schengen Visa Calculator</title>
     <link rel="icon" type="image/x-icon" href="./assets/icons/europe.svg">
-    <link rel="stylesheet" href="./assets/css/index.css"> <!-- Your CSS -->
+    <link rel="stylesheet" href="./assets/css/index.css"> 
+    <link rel="stylesheet" href="./assets/css/about.css"> 
     <script defer src="./assets/js/main.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
 </head>
@@ -50,32 +35,51 @@
 
         <!-- MAIN AREA --> 
         <section class="contentArea">
-            <section class="inputArea">
-                <section class="date-input-wrapper">
-                    <label for="entryDate">Entry Date:</label>&nbsp;&nbsp;
-                    <input type="date" id="entryDate" class="dateInputs">
+            <section class="aboutArea">
+                <section>
+                  <img src="./assets/images/tory.png" class="aboutLogo" alt="Tory Software Solutions Icon">
+                   <p>Tory Software Solutions is a dedicated web development company creating 
+                      innovative, user-friendly tools for everyday and specialized needs. Our mission 
+                      is to simplify complex tasks through intuitive web applications, trusted by 
+                      students, professionals, and businesses worldwide.</p>
                 </section>
-                <section class="date-input-wrapper">
-                    <label for="exitDate">Exit Date:</label>&nbsp;&nbsp;
-                    <input type="date" id="exitDate" class="dateInputs">
-                </section>            
-                <button id="addTripBtn" class="button_plus">+</button>
+                <section class="portfolio">
+                    <h2>Our Work</h2>
+                    <p>We specialize in building accessible, responsive web tools. Explore some of our projects:</p>
+                    <ul>
+                        <li><a href="https://unitzap.space" aria-label="Visit UnitZap for unit conversion tools">
+                            <strong>unitzap.space &nbsp;&nbsp;</strong></a> 
+                            Free unit converters for weight, length, temperature, and more.</li>
+                        <li><a href="https://ipradar.org" 
+                            aria-label="Visit IPRadar for IP tracking tools">
+                            <strong>ipradar.org &nbsp;&nbsp;</strong></a> 
+                            Tools for tracking and analyzing IP addresses.</li>
+                        <li><a href="https://visacalculator.org" 
+                            aria-label="Visit Visa Calculator for visa-related calculations">
+                            <strong>visacalculator.org &nbsp;&nbsp;</strong></a> 
+                            Simplifying visa calculations.</li>
+                        <li><a href="https://einsteincalculators.com" 
+                            aria-label="Visit Einstein Calculators for scientific calculations">
+                            <strong>einsteincalculators.com &nbsp;&nbsp;</strong></a> 
+                            Advanced scientific calculators for researchers and engineers.</li>
+                        <li class="livorentList"><a href="https://einsteincalculators.com" 
+                            aria-label="Visit Einstein Calculators for scientific calculations">
+                            <strong>livorent.org &nbsp;&nbsp;</strong></a> 
+                            Latvia's number 1 rental platform&nbsp;&nbsp;<img class="flagIcon" src="./assets/icons/latvia.svg" 
+                            alt="Latvia number 1 rental platform"> </li>
+                    </ul>
+                </section>
+                <section>
+                    <h2>Contact Us</h2>
+                    <p>For questions, investment inquiries, advertisement partnerships, reach out to us at 
+                        <a href="mailto:torysoftware@gmail.com" aria-label="Contact Tory Software Solutions via email">
+                        <strong>torysoftware@gmail.com</strong></a></p>
+                    <p>SVG icons:&nbsp;&nbsp;
+                        <a href="https://www.svgrepo.com/svg/241057/european-union-europe"><strong>SVG Repo</strong></a></p>
+                </section>
             </section>
-            <section>
-                <ul id="tripList"></ul>
-            </section>
-            <section class="resultSchengenCalculator" id="resultArea"
-            role="status" aria-live="polite" aria-atomic="true"></section>
         </section>
             
-        <footer class="footerArea">
-            <a href="https://visacalculator.org/about.html">
-                <img class="footerIcon" src="./assets/images/tory.png" alt="Schengen Calculator developer profile icon">
-            </a>
-            <p>📢 Interested in advertising? 
-                <a href="https://visacalculator.org/about.html"><strong>Click</strong></a> for about us and partnerships.
-            </p>
-        </footer>
     
     </main>
 <script type="application/ld+json">
