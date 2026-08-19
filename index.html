@@ -1,145 +1,21 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Track your Schengen Visa stay with our 90/180-day rule calculator. 
-    Calculate visa stay. Calculate how many days you can stay in Schengen. Schenge EU Turkey visa calculation. 
-    Yeşil pasaport AB Schengen vize hesaplama. Simple, fast, accurate tool for Schengen travel planning and visa compliance.">
-    <meta name="keywords" content="Schengen Visa Calculator, 90/180 rule, visa stay tracker, Schengen travel 
-    planner, EU visa calculator, Yeşil pasaport vize, Schengen compliance, visa days calculator">
-        <!-- Open Graph Meta Tags -->
-    <meta property="og:title" content="Schengen Visa Calculator - 90/180 Days">
-    <meta property="og:description" content="Track your Schengen Visa stay with our simple, fast, and accurate 90/180-day rule calculator for travel planning and visa compliance.">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="https://visacalculator.org">
-    <meta property="og:image" content="https://visacalculator.org/assets/icons/europe.svg">
-    <meta property="og:image:alt" content="Schengen Visa Calculator Interface">
-    <meta property="og:site_name" content="Schengen Visa Calculator">
-    <!-- Twitter Card Meta Tags -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="Schengen Visa Calculator - 90/180 Days">
-    <meta name="twitter:description" content="Track your Schengen Visa stay with our simple, fast, and accurate 90/180-day rule calculator for travel planning and visa compliance.">
-    <meta name="twitter:image" content="https://visacalculator.org/assets/icons/europe.svg">
-    <meta name="twitter:image:alt" content="Schengen Visa Calculator Interface">
-    <meta name="twitter:site" content="@YourTwitterHandle"> <!-- Replace with actual Twitter handle -->
-    <title>Schengen Visa Calculator</title>
-    <meta name="google-site-verification" content="Bzv8D7u5EDE9Wzk9OMV2GuMCkIwbgDNFlpGL_jqPcnY" />
-    <title>Schengen Visa Calculator</title>
-    <link rel="icon" type="image/x-icon" href="./assets/icons/europe.svg">
-    <link rel="stylesheet" href="./assets/css/index.css"> <!-- Your CSS -->
-    <script defer src="./assets/js/main.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/axios/dist/axios.min.js"></script>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Yönlendiriliyor...</title>
+
+  <meta http-equiv="refresh" content="0; url=https://www.eumaps.org/vize.html">
+
+  <script>
+    window.location.replace("https://www.eumaps.org/vize.html");
+  </script>
 </head>
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=AW-11059585095"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
- 
-  gtag('config', 'AW-11059585095');
-</script>
-
 <body>
-    <main class="mainArea">
-        <!-- TOP AREA -->
-        <header class="topArea">  
-            <a href="https://visacalculator.org/index.html"><h2>Schengen Visa Calculator (90/180 days)</h2></a>
-        </header>
-
-        <!-- MAIN AREA --> 
-        <section class="contentArea">
-            <section class="inputArea">
-                <section class="date-input-wrapper">
-                    <label for="entryDate">Entry Date:</label>&nbsp;&nbsp;
-                    <input type="date" id="entryDate" class="dateInputs">
-                </section>
-                <section class="date-input-wrapper">
-                    <label for="exitDate">Exit Date:</label>&nbsp;&nbsp;
-                    <input type="date" id="exitDate" class="dateInputs">
-                </section>            
-                <button id="addTripBtn" class="button_plus">+</button>
-            </section>
-            <section>
-                <ul id="tripList"></ul>
-            </section>
-            <section class="resultSchengenCalculator" id="resultArea"
-            role="status" aria-live="polite" aria-atomic="true"></section>
-        </section>
-            
-        <footer class="footerArea">
-            <a href="https://visacalculator.org/about.html">
-                <img class="footerIcon" src="./assets/images/tory.png" alt="Schengen Calculator developer profile icon">
-            </a>
-            <p>📢 Interested in advertising? 
-                <a href="https://visacalculator.org/about.html"><strong>Click</strong></a> for about us and partnerships.
-            </p>
-        </footer>
-    
-    </main>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebPage",
-  "name": "Schengen Visa Calculator",
-  "description": "Track your Schengen Visa stay with our 90/180-day rule calculator. Simple, fast, and accurate tool for Schengen travel planning and visa compliance.",
-  "url": "https://yourwebsite.com",
-  "keywords": [
-    "Schengen Visa Calculator",
-    "90/180 rule",
-    "visa stay tracker",
-    "Schengen travel planner",
-    "EU visa calculator",
-    "Yeşil pasaport vize",
-    "Schengen compliance",
-    "visa days calculator"
-  ],
-  "inLanguage": "en",
-  "publisher": {
-    "@type": "Organization",
-    "name": "Schengen Visa Calculator",
-    "url": "https://yourwebsite.com"
-  },
-  "mainEntity": {
-    "@type": "SoftwareApplication",
-    "name": "Schengen Visa Calculator",
-    "applicationCategory": "Travel",
-    "operatingSystem": "Web",
-    "description": "A tool to calculate and track the 90/180-day Schengen Visa stay rule, ensuring compliance for travelers in the Schengen Area.",
-    "featureList": [
-      "Calculate visa stay duration",
-      "Track entry and exit dates",
-      "Ensure Schengen 90/180 rule compliance",
-      "Support for Yeşil pasaport and EU visa calculations"
-    ],
-    "offers": {
-      "@type": "Offer",
-      "price": "0",
-      "priceCurrency": "USD",
-      "availability": "https://schema.org/InStock"
-    }
-  },
-  "breadcrumb": {
-    "@type": "BreadcrumbList",
-    "itemListElement": [
-      {
-        "@type": "ListItem",
-        "position": 1,
-        "name": "Home",
-        "item": "https://yourwebsite.com"
-      },
-      {
-        "@type": "ListItem",
-        "position": 2,
-        "name": "Schengen Visa Calculator",
-        "item": "https://yourwebsite.com"
-      }
-    ]
-  },
-  "datePublished": "2025-08-26",
-  "dateModified": "2025-08-26"
-}
-</script>
+  <p>
+    Vize hesaplama sayfası taşındı.
+    <a href="https://www.eumaps.org/vize.html">Yeni sayfaya gitmek için tıklayın.</a>
+  </p>
 </body>
 </html>
